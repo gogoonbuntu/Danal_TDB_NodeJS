@@ -1,0 +1,33 @@
+{
+    "Debug" : "true",
+    "TeleditBinPath":"./bin",
+    
+    "_comment" : "To. Danal 서버 - 필수 사항",
+    "ID": "A010002002",
+	"PWD": "bbbbb",
+	"ItemAmt": 301,
+	"CPName": "가맹점이름",
+	"ItemCode": "1270000000",
+	"ItemName": "상품이름",
+	"serverAddr": "https://tdbnodejs.run.goorm.io",
+    
+    "_comment" : "To. Danal 서버 - 선택 사항",
+	"SUBCP": "",
+	"USERID": "",
+	"ORDERID": "",
+	"IsPreOtbill ": "N",
+	"IsSubscript ": "N",
+    
+    "_comment" : "To. 가맹점 서버 CPCGI 페이지 - 필수 사항",
+	"BgColor": "00",
+	"TargetURL": "/CPCGI",
+	"BackURL": "/BackURL",
+	"IsUseCI": "N",
+	"CIURL": "/images/ci.gif",
+    
+    "_comment" : "To. 가맹점 서버 CPCGI 페이지 - 선택 사항",
+	"Email": "",
+	"IsCharSet": "EUC-KR",
+	"ByBuffer": "This value bypass to CPCGI Page",
+	"ByAnyName": "Anyvalue"
+}
